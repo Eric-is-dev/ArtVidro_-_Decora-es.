@@ -361,3 +361,18 @@ header p, nav ul, section, section p, footer p {
     margin-bottom: 10px;
     width: 100%;
 }
+@media screen and (max-width: 768px) {
+    /* Adicione aqui os estilos para telas menores */
+    header {
+        padding: 50px 0; /* Reduzindo o preenchimento no cabeçalho */
+    }
+
+    nav li {
+        font-size: 1em; /* Reduzindo o tamanho da fonte na navegação */
+    }
+
+    /* ... (outros estilos) ... */
+}
+img {
+    max-width: 100%; /* Faz com que a imagem não ultrapasse a largura do elemento pai */
+}
