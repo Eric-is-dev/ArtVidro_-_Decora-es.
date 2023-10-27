@@ -1,0 +1,363 @@
+/* Adicionando uma imagem de fundo ao cabeçalho */
+header {
+    background-color: #4300df; 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Estilizando o texto destacado */
+.highlighted-text {
+    color: #0140ac;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Estilizando os links de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s; /* Transição de cor suave */
+}
+
+nav a:hover {
+    color: #2b79ff; /* Mudando a cor ao passar o mouse */
+}
+
+/* Adicionando um pouco de espaço entre os parágrafos de contato */
+.contact-info {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #ffffff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.8em;
+}
+
+header {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-info a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #2b79ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+header h1 {
+    font-size: 3em;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+nav a {
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #2b79ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ffffff;
+}
+
+footer {
+    position: relative;
+}
+
+footer a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 2em;
+    color: #2b79ff;
+}
+
+footer img {
+    width: 40px; /* Defina o tamanho desejado */
+    height: 40px; /* Defina o tamanho desejado */
+    border-radius: 50%; /* Adiciona a borda redonda */
+    border: 1px solid #050505; /* Adiciona uma borda com a cor desejada */
+}
+
+section:nth-child(even) {
+    background-color: #f6f6f6;
+    padding: 30px;
+    text-align: center;
+}
+
+section:nth-child(odd) {
+    background-color: #f6f6f6;
+    padding: 30px;
+    font-size: 1.2em;
+}
+
+.contact-info a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FF5722;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.contact-info a:hover {
+    background-color: #2b79ff;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 1em;
+    box-shadow: 0px -5px 10px rgba(0,0,0,0.1);
+}
+
+nav a {
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+nav a:hover {
+    background-color: #2b79ff;
+    color: #fff;
+}
+
+header {
+    background-color: #13b4ff; /* Substitua #2196F3 pelo código hexadecimal da cor azul desejada */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Define o tamanho da fonte para os textos abaixo do cabeçalho */
+header p, nav ul, section, section p, footer p {
+    font-size: 0.99em; /* Adicione esta linha para definir o tamanho da fonte */
+}
+
+.services-contact-section {
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services-contact-section h2 {
+    font-size: 1.5em;
+}
+
+.services-contact-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.services-contact-section h2 {
+    font-size: 1.2em; /* Reduzindo o tamanho da fonte do título */
+}
+
+.services-contact-section p {
+    font-size: 1em; /* Reduzindo o tamanho da fonte do texto */
+    line-height: 1.4;
+}
+
+.services-contact-section h2 {
+    font-family: 'Arial', sans-serif; /* Exemplo de fonte */
+    font-size: 2em;
+    color: #333; /* Cor do texto escura */
+    margin-bottom: 10px; /* Adicionando espaço abaixo do título */
+}
+
+.services-contact-section p {
+    font-family: 'Arial', sans-serif; /* Exemplo de fonte */
+    font-size: 1.2em;
+    color: #555; /* Cor do texto mais escura */
+    line-height: 1.6;
+}
+
+.services-contact-section p strong {
+    color: #2b79ff; /* Cor de destaque */
+}
+
+.services-contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services-contact-section li {
+    margin-bottom: 5px; /* Adicionando espaço entre os itens da lista */
+}
+
+.services-contact-section a {
+    text-decoration: none;
+    color: #2b79ff;
+    font-weight: bold;
+}
+
+.services-contact-section a:hover {
+    text-decoration: underline;
+}
+
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+/* Estilo para a caixa de serviços */
+.services-contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.location-box, .reviews-box {
+    background-color: #f9f9f9;
+    border: 2px solid #2b79ff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto 30px;
+    width: calc(100% - 40px);
+}
+
+.location-text, .reviews-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilo para a caixa de avaliações */
+.reviews-box {
+    max-width: 300px;
+}
+
+.reviews-box p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.reviews-box p strong {
+    color: #2b79ff;
+}
+/* ... (outros estilos) ... */
+
+/* Reduzindo o tamanho do texto para os títulos h2 */
+.services-contact-section h2 {
+    font-size: 1.5em; /* Reduza o valor conforme necessário */
+}
+
+/* Reduzindo o tamanho do texto para os parágrafos */
+.services-contact-section p {
+    font-size: 1.1em; /* Reduza o valor conforme necessário */
+}
+
+/* ... (outros estilos) ... */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
