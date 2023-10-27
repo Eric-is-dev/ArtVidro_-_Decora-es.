@@ -361,18 +361,37 @@ header p, nav ul, section, section p, footer p {
     margin-bottom: 10px;
     width: 100%;
 }
+/* ... (seu código CSS anterior) ... */
+
+/* Adaptação para dispositivos móveis */
 @media screen and (max-width: 768px) {
-    /* Adicione aqui os estilos para telas menores */
     header {
-        padding: 50px 0; /* Reduzindo o preenchimento no cabeçalho */
+        padding: 50px 0;
     }
 
     nav li {
-        font-size: 1em; /* Reduzindo o tamanho da fonte na navegação */
+        font-size: 1em;
     }
 
-    /* ... (outros estilos) ... */
+    .header-content {
+        padding: 30px 20px;
+    }
+
+    .main-content {
+        padding: 30px 20px;
+    }
+
+    .location-box, .reviews-box {
+        max-width: none;
+        width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+    }
+
+    /* Adicione outras modificações conforme necessário */
 }
-img {
-    max-width: 100%; /* Faz com que a imagem não ultrapasse a largura do elemento pai */
-}
+
+/* ... (seu código CSS posterior) ... */
